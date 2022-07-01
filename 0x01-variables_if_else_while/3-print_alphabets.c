@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
- *
- * Retun: Always 0 (Success)
+  * main - entry point
+  * description - prints lowercase and uppercase
+  * Retun: Always 0 (Success)
  */
+
 int main(void)
 {
 	char c;
