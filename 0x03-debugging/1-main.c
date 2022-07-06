@@ -1,0 +1,29 @@
+/*
+ * File: 1-main.c
+ * Auth: OluwarotimiT
+ */
+
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - the part that causes an infinite pool
+ * Return: 0
+ */
+int main(void)
+{
+	int i;
+
+	printf("Infinite loop incoming :(\n");
+
+	i = 0;
+
+	/* while (i < 10)*/
+	/* {*/
+	/*	putchar(i);*/
+	/* }*/
+
+	printf("Infinite loop avoided! \\o/\n");
+
+	return (0);
+}
