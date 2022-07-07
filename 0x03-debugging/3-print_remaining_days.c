@@ -1,8 +1,3 @@
-/*
- * File: 3-print_remaining_days.c
- * Auth: OluwarotimiT
- */
-
 #include "main.h"
 #include <stdio.h>
 
@@ -14,6 +9,7 @@
  * @year: year
  * Return: void
  */
+
 void print_remaining_days(int month, int day, int year)
 {
 	if (year % 4 == 0 || (year % 400 == 0 && !(year % 100 == 0)))
